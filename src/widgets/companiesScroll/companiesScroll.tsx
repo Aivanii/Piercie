@@ -19,17 +19,13 @@ const companiesLogos = [
     src: "https://cdn.durable.co/assets/logo-showcase/logo-ipsum-5.png",
     alt: "Company X5 logo",
   },
-  {
-    src: "https://cdn.durable.co/assets/logo-showcase/logo-ipsum-6.png",
-    alt: "Company X6 logo",
-  },
 ];
 
 const CompaniesScroll = () => {
   return (
     <div
       className="h-full max-w-[1920px] m-auto
-                flex w-full overflow-hidden"
+                flex w-full"
     >
       {/*
       <div className="absolute inset-0 overflow-hidden pointer-events-none">

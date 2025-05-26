@@ -16,9 +16,10 @@ html{
   font-style: normal;
 }
 
+/*TODO: fix when screen size (width) changes, the anim is broken */
 @keyframes companies-scroll-anim{
   from{
-    transform: translateX(-117%);
+    transform: translateX(-140.5%);
   }
   to{
     transform: translateX(0%);
@@ -26,5 +27,5 @@ html{
 }
 
 .companies-scroll {
-  animation: companies-scroll-anim 20s linear infinite;
+  animation: companies-scroll-anim 4s linear infinite;
 }
