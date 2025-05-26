@@ -1,12 +1,13 @@
 import Header from "./widgets/header/header";
 import MainScreen from "./widgets/mainScreen.tsx/mainScreen";
+import CompaniesScroll from "./widgets/companiesScroll/companiesScroll";
 
 function App() {
   return (
     <>
       <Header />
       <MainScreen />
-      <p className="bg-yellow-400 text-9xl">hello</p>
+      <CompaniesScroll/>
     </>
   );
 }
