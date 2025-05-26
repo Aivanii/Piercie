@@ -5,9 +5,8 @@
   box-sizing: border-box;
 }
 
-.header-logo{
+.header-logo, .jost-styles{
   font-family: "Jost", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 700;
   font-style: normal;
 }
