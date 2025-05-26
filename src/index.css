@@ -27,5 +27,5 @@ html{
 }
 
 .companies-scroll {
-  animation: companies-scroll-anim 4s linear infinite;
+  animation: companies-scroll-anim 20s linear infinite;
 }
