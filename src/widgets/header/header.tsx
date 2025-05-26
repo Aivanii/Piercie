@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <header className="absolute top-0 left-0">
+    <header className="absolute top-0 left-0 z-100">
       <div className="max-w-[1920px] w-dvw relative px-12 py-8">
         <a href="/" className="w-fit">
           <h2
