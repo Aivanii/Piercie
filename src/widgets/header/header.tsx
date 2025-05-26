@@ -1,10 +1,10 @@
 const Header = () => {
   return (
     <header className="absolute top-0 left-0">
-      <div className="max-w-[1920px] w-dvw relative px-6 py-12">
+      <div className="max-w-[1920px] w-dvw relative px-12 py-8">
         <a href="/" className="w-fit">
           <h2
-            className="text-2xl text-black header-logo
+            className="text-2xl text-white header-logo
                 w-fit"
           >
             Piercie
