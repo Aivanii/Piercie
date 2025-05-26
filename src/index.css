@@ -5,8 +5,26 @@
   box-sizing: border-box;
 }
 
+html{
+  width: 100%;
+  overflow-x: hidden;
+}
+
 .header-logo, .jost-styles{
   font-family: "Jost", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+}
+
+@keyframes companies-scroll-anim{
+  from{
+    transform: translateX(-117%);
+  }
+  to{
+    transform: translateX(0%);
+  }
+}
+
+.companies-scroll {
+  animation: companies-scroll-anim 20s linear infinite;
 }
