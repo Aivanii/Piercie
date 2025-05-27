@@ -6,7 +6,7 @@ const OurSkills = () => {
     >
       <div
         className="flex justify-center items-center flex-col
-        w-full p-12 pt-40"
+        w-full p-12 pt-30"
       >
         <h2 className="font-bold text-4xl jost-styles text-white w-full text-center">
           Advanced Earings Crafting
