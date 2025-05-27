@@ -34,38 +34,38 @@ const OurSkills = () => {
           <div className="relative">
             <img
               className="h-144 w-100 object-cover relative"
-              src="https://media.gettyimages.com/id/1500832940/photo/pharmacist-uses-a-specialized-piercing-gun-to-create-a-new-earlobe-piercing.jpg?b=1&s=2048x2048&w=0&k=20&c=zQxj1pAFEc2SPNaD3Oq-WwJ8JUXT3Xj5SdFZGrcq4wE="
-              alt="Pharmacist uses a specialized piercing gun to create a new earlobe piercing"
+              src="https://media.gettyimages.com/id/1161011234/photo/body-piercing-background-jewelry-rings-puncturing-implants-blurry-background.jpg?b=1&s=2048x2048&w=0&k=20&c=ayeqKfnI6GOKyfRGZVWpOttu7PQDCaSAo9VCOduF7Ek="
+              alt="Body piercing background jewelry rings puncturing implants | Blurry Background"
             />
             <div
               className="absolute w-full bottom-0 -transform-y-[50%]
             bg-[#000000b5] p-6"
             >
               <p className="jost-styles text-3xl font-bold text-white">
-                Custom Piercing Consultation
+                High-Quality Jewelry Selection
               </p>
               <p className="jost-styles text-white font-light mt-2">
-                Receive personalized advice and design ideas to achieve the
-                perfect piercing tailored for you.
+                Choose from a curated collection of premium jewelry suitable for
+                any piercing style.
               </p>
             </div>
           </div>
           <div className="relative">
             <img
               className="h-144 w-100 object-cover relative"
-              src="https://media.gettyimages.com/id/1500832940/photo/pharmacist-uses-a-specialized-piercing-gun-to-create-a-new-earlobe-piercing.jpg?b=1&s=2048x2048&w=0&k=20&c=zQxj1pAFEc2SPNaD3Oq-WwJ8JUXT3Xj5SdFZGrcq4wE="
-              alt="Pharmacist uses a specialized piercing gun to create a new earlobe piercing"
+              src="https://media.gettyimages.com/id/1367116547/photo/cropped-photo-of-a-smiling-woman-patient-getting-ear-piercing-procedure-by-a-specialist-in.jpg?b=1&s=2048x2048&w=0&k=20&c=AUiyi4ihJ332LWMI2Ns-uGNUxtLy6hSe1_eO7dVT0Vc="
+              alt="Cropped photo of a smiling woman patient getting ear piercing procedure by a specialist in medical gloves in the cosmetologist cabinet."
             />
             <div
               className="absolute w-full bottom-0 -transform-y-[50%]
             bg-[#000000b5] p-6"
             >
               <p className="jost-styles text-3xl font-bold text-white">
-                Custom Piercing Consultation
+                Expert Piercing Aftercare
               </p>
               <p className="jost-styles text-white font-light mt-2">
-                Receive personalized advice and design ideas to achieve the
-                perfect piercing tailored for you.
+                Get professional guidance on caring for your new piercing to
+                ensure optimal healing and comfort.
               </p>
             </div>
           </div>
