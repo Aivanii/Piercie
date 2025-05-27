@@ -71,6 +71,37 @@ const OurSkills = () => {
           </div>
         </div>
       </div>
+
+      <div className="flex justify-center items-center w-full p-12 pt-20
+      gap-20">
+        <img
+          src="https://media.gettyimages.com/id/1278771818/photo/london-punk-scene-portrait-of-one-male-punker.jpg?b=1&s=2048x2048&w=0&k=20&c=o2snkeAhZXHsb_JMzLc-RA8FmaDpFGNkITaQYnvY0jA="
+          alt="London Punk scene, portrait of one male punker."
+          className="w-1/2 aspect-square object-cover"
+        />
+        <div className="w-1/2 flex flex-col justify-between h-full gap-2">
+          <h2 className="font-bold text-4xl jost-styles text-white w-full">
+            Elevating Piercing Artistry in London
+          </h2>
+          <p className="jost-styles text-white font-light mt-2 text-sm">
+            At Piercie, located in the heart of London, we specialize in modern
+            piercing techniques that blend precision with creativity. Our
+            experienced team is dedicated to providing a safe and welcoming
+            environment, ensuring each client receives a personalized
+            experience. By using state-of-the-art equipment and adhering to the
+            highest hygiene standards, Piercie transforms body art into a
+            distinctive form of self-expression. Step into our studio and
+            discover the perfect piece to complement your unique style.
+          </p>
+          <button
+            className="jost-styles font-light
+            bg-amber-400 text-black text-center p-2 text-sm
+              w-fit cursor-pointer hover:bg-[#e6a90a] duration-200"
+          >
+            Contact
+          </button>
+        </div>
+      </div>
     </div>
   );
 };
