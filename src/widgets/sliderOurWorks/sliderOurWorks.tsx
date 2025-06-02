@@ -45,21 +45,23 @@ const slides = [
 
 const SliderOurWorks = () => {
   return (
-    <Carousel
-      responsive={responsive}
-      infinite={true}
-      showDots={true}
-      customTransition={"all .69s ease-in-out"}
-    >
-      {slides.map((elem, index) => (
-        <img
-          src={elem.src}
-          key={`${elem.src}-${index}`}
-          alt={elem.alt}
-          className="w-full h-full aspect-video p-16 object-cover"
-        />
-      ))}
-    </Carousel>
+    <section>
+      <Carousel
+        responsive={responsive}
+        infinite={true}
+        showDots={true}
+        customTransition={"all .69s ease-in-out"}
+      >
+        {slides.map((elem, index) => (
+          <img
+            src={elem.src}
+            key={`${elem.src}-${index}`}
+            alt={elem.alt}
+            className="w-full h-full aspect-video p-16 object-cover"
+          />
+        ))}
+      </Carousel>
+    </section>
   );
 };
 export default SliderOurWorks;
