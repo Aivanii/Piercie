@@ -43,9 +43,9 @@ const Services = () => {
                     className="w-6 h-6"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
                       d="m5 13 4 4L19 7"
                     ></path>
                   </svg>
@@ -63,9 +63,9 @@ const Services = () => {
                   className="w-6 h-6"
                 >
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="1.5"
                     d="m5 13 4 4L19 7"
                   ></path>
                 </svg>
@@ -82,9 +82,9 @@ const Services = () => {
                   className="w-6 h-6"
                 >
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="1.5"
                     d="m5 13 4 4L19 7"
                   ></path>
                 </svg>
@@ -128,9 +128,9 @@ const Services = () => {
                     className="w-6 h-6"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
                       d="m5 13 4 4L19 7"
                     ></path>
                   </svg>
@@ -148,9 +148,9 @@ const Services = () => {
                   className="w-6 h-6"
                 >
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="1.5"
                     d="m5 13 4 4L19 7"
                   ></path>
                 </svg>
@@ -167,9 +167,9 @@ const Services = () => {
                   className="w-6 h-6"
                 >
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="1.5"
                     d="m5 13 4 4L19 7"
                   ></path>
                 </svg>
@@ -210,9 +210,9 @@ const Services = () => {
                     className="w-6 h-6"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
                       d="m5 13 4 4L19 7"
                     ></path>
                   </svg>
@@ -230,9 +230,9 @@ const Services = () => {
                   className="w-6 h-6"
                 >
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="1.5"
                     d="m5 13 4 4L19 7"
                   ></path>
                 </svg>
@@ -249,9 +249,9 @@ const Services = () => {
                   className="w-6 h-6"
                 >
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="1.5"
                     d="m5 13 4 4L19 7"
                   ></path>
                 </svg>
