@@ -8,7 +8,10 @@ export const FadeIn: React.FC<React.HTMLAttributes<HTMLDivElement>> = (
   const fadeInAnim = useSpring({
     from: { y: 50, opacity: 0 },
     to: { y: 0, opacity: 1 },
-    config: config.slow,
+    config: {
+      tension: 280 * (props.speed || 1),
+      friction: 60,
+    },
   });
 
   return (
