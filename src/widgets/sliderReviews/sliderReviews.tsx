@@ -38,7 +38,7 @@ const SliderReviews = () => {
       infinite={true}
       showDots={true}
       customTransition={"all .69s ease-in-out"}
-      className="w-dvw max-w-[1920px] m-auto mt-40"
+      className="w-dvw max-w-[1920px] m-auto mt-40 pb-20"
     >
       {slides.map((elem) => (
         <div key = {elem.author} className="max-w-[1280px] m-auto 
