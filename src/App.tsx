@@ -6,6 +6,7 @@ import SliderOurWorks from "./widgets/sliderOurWorks/sliderOurWorks";
 import Services from "./widgets/services/services";
 import SliderReviews from "./widgets/sliderReviews/sliderReviews";
 import Contacts from "./widgets/contacts/contacts";
+import Location from "./widgets/location/location";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Services />
       <SliderReviews />
       <Contacts />
+      <Location />
     </>
   );
 }
