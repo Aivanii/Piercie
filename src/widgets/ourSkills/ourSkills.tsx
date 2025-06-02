@@ -1,3 +1,5 @@
+import { FadeIn } from "../../configs/animsSettings";
+
 const OurSkills = () => {
   return (
     <section>
@@ -13,7 +15,7 @@ const OurSkills = () => {
             Advanced Earings Crafting
           </h2>
           <div className="flex mt-6 gap-2 md:gap-4 lg:gap-8">
-            <div className="relative">
+            <FadeIn className="relative">
               <img
                 className="h-144 w-100 object-cover relative"
                 src="https://media.gettyimages.com/id/1500832940/photo/pharmacist-uses-a-specialized-piercing-gun-to-create-a-new-earlobe-piercing.jpg?b=1&s=2048x2048&w=0&k=20&c=zQxj1pAFEc2SPNaD3Oq-WwJ8JUXT3Xj5SdFZGrcq4wE="
@@ -31,8 +33,8 @@ const OurSkills = () => {
                   perfect piercing tailored for you.
                 </p>
               </div>
-            </div>
-            <div className="relative">
+            </FadeIn>
+            <FadeIn className="relative" speed={0.8}>
               <img
                 className="h-144 w-100 object-cover relative"
                 src="https://media.gettyimages.com/id/1161011234/photo/body-piercing-background-jewelry-rings-puncturing-implants-blurry-background.jpg?b=1&s=2048x2048&w=0&k=20&c=ayeqKfnI6GOKyfRGZVWpOttu7PQDCaSAo9VCOduF7Ek="
@@ -50,8 +52,8 @@ const OurSkills = () => {
                   for any piercing style.
                 </p>
               </div>
-            </div>
-            <div className="relative">
+            </FadeIn>
+            <FadeIn className="relative" speed={0.6}>
               <img
                 className="h-144 w-100 object-cover relative"
                 src="https://media.gettyimages.com/id/1367116547/photo/cropped-photo-of-a-smiling-woman-patient-getting-ear-piercing-procedure-by-a-specialist-in.jpg?b=1&s=2048x2048&w=0&k=20&c=AUiyi4ihJ332LWMI2Ns-uGNUxtLy6hSe1_eO7dVT0Vc="
@@ -69,7 +71,7 @@ const OurSkills = () => {
                   ensure optimal healing and comfort.
                 </p>
               </div>
-            </div>
+            </FadeIn>
           </div>
         </div>
 
