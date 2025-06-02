@@ -7,6 +7,7 @@ import Services from "./widgets/services/services";
 import SliderReviews from "./widgets/sliderReviews/sliderReviews";
 import Contacts from "./widgets/contacts/contacts";
 import Location from "./widgets/location/location";
+import Footer from "./widgets/footer/footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <SliderReviews />
       <Contacts />
       <Location />
+      <Footer />
     </>
   );
 }
