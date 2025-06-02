@@ -4,6 +4,7 @@ import CompaniesScroll from "./widgets/companiesScroll/companiesScroll";
 import OurSkills from "./widgets/ourSkills/ourSkills";
 import SliderOurWorks from "./widgets/sliderOurWorks/sliderOurWorks";
 import Services from "./widgets/services/services";
+import Reviews from "./widgets/reviews/reviews";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <OurSkills />
       <SliderOurWorks />
       <Services />
+      <Reviews/>
     </>
   );
 }
