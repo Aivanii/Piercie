@@ -1,4 +1,4 @@
-const Reviews = () => {
+const SliderReviews = () => {
     return(
         <div>
             reviews
@@ -6,4 +6,4 @@ const Reviews = () => {
     )
 }
 
-export default Reviews;
+export default SliderReviews;
