@@ -16,9 +16,9 @@ const MainScreen = () => {
         <div>
           <div
             className="absolute top-1/2 left-1/12 -translate-y-1/2 
-      text-white w-3/7 flex flex-col gap-8"
+      text-white w-3/7"
           >
-            <FadeIn>
+            <FadeIn className="flex flex-col gap-8">
               <h1 className="font-bold text-7xl jost-styles">
                 Advanced Piercing Techniques Available
               </h1>
