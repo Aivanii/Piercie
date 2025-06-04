@@ -26,13 +26,13 @@ const MainScreen = () => {
                 Experience cutting-edge piercing techniques at Piercie's, your
                 London destination for modern body art excellence and safety.
               </p>
-              <button
+              <a href = "#contacts-section"
                 className="jost-styles text-xl font-normal
         bg-amber-400 text-black text-center p-4 
         w-fit cursor-pointer hover:bg-[#e6a90a] duration-200"
               >
                 Explore piercing options
-              </button>
+              </a>
             </FadeIn>
           </div>
         </div>

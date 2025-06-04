@@ -1,6 +1,6 @@
 const Contacts = () => {
   return (
-    <section>
+    <section id = "contacts-section">
       <div className="bg-[#22211F] py-10 mt-40 w-dvw max-w-[1920px] m-auto text-white">
         <div className="flex flex-wrap justify-around items-start">
           <div
