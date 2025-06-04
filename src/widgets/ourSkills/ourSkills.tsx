@@ -9,11 +9,14 @@ const OurSkills = () => {
           className="flex justify-center items-center flex-col
         w-full p-12 pt-30"
         >
-          <h2 className="font-bold text-4xl jost-styles text-white w-full text-center" data-aos="fade-up">
+          <h2
+            className="font-bold text-4xl jost-styles text-white w-full text-center"
+            data-aos="fade-up"
+          >
             Advanced Earings Crafting
           </h2>
           <div className="flex mt-6 gap-2 md:gap-4 lg:gap-8">
-            <div className="relative" data-aos="fade-up"  data-aos-delay="500">
+            <div className="relative" data-aos="fade-up" data-aos-delay="500">
               <img
                 className="h-144 w-100 object-cover relative"
                 src="https://media.gettyimages.com/id/1500832940/photo/pharmacist-uses-a-specialized-piercing-gun-to-create-a-new-earlobe-piercing.jpg?b=1&s=2048x2048&w=0&k=20&c=zQxj1pAFEc2SPNaD3Oq-WwJ8JUXT3Xj5SdFZGrcq4wE="
@@ -75,18 +78,19 @@ const OurSkills = () => {
 
         <div
           className="flex justify-center items-center w-full p-12 pt-20
-      gap-20"  data-aos="fade-up"
+      gap-20"
+          data-aos="fade-up"
         >
           <img
             src="https://media.gettyimages.com/id/1278771818/photo/london-punk-scene-portrait-of-one-male-punker.jpg?b=1&s=2048x2048&w=0&k=20&c=o2snkeAhZXHsb_JMzLc-RA8FmaDpFGNkITaQYnvY0jA="
             alt="London Punk scene, portrait of one male punker."
-            className="w-1/2 aspect-square object-cover"
+            className="w-1/2 max-w-xl aspect-square object-cover"
           />
           <div className="w-1/2 flex flex-col justify-between h-full gap-4">
             <h2 className="font-bold text-4xl jost-styles text-white w-full">
               Elevating Piercing Artistry in London
             </h2>
-            <p className="jost-styles text-white font-normal mt-2 text-sm">
+            <p className="jost-styles text-white font-normal mt-2 text-lg">
               At Piercie, located in the heart of London, we specialize in
               modern piercing techniques that blend precision with creativity.
               Our experienced team is dedicated to providing a safe and
@@ -98,9 +102,8 @@ const OurSkills = () => {
               style.
             </p>
             <button
-              className="jost-styles font-
-            bg-amber-400 text-black text-center p-2 text-sm
-              w-fit cursor-pointer hover:bg-[#e6a90a] duration-200"
+              className="p-4 bg-[#E5AF24] text-center hover:bg-[#D09F23] duration-150 cursor-pointer
+          text-black w-fit"
             >
               Contact
             </button>
