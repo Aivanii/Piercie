@@ -18,7 +18,7 @@ const MainScreen = () => {
             className="absolute top-1/2 left-1/12 -translate-y-1/2 
       text-white w-3/7"
           >
-            <FadeIn className="flex flex-col gap-8">
+            <div className="flex flex-col gap-8">
               <h1 className="font-bold text-7xl jost-styles">
                 Advanced Piercing Techniques Available
               </h1>
@@ -32,7 +32,7 @@ const MainScreen = () => {
               >
                 Explore piercing options
               </a>
-            </FadeIn>
+            </div>
           </div>
         </div>
       </div>
