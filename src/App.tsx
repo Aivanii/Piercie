@@ -8,8 +8,21 @@ import SliderReviews from "./widgets/sliderReviews/sliderReviews";
 import Contacts from "./widgets/contacts/contacts";
 import Location from "./widgets/location/location";
 import Footer from "./widgets/footer/footer";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      once: true,
+      duration: 650,
+      offset: 150,
+      easing: "fade-up",
+      delay: 400,
+    });
+  }, []);
+
   return (
     <>
       <Header />

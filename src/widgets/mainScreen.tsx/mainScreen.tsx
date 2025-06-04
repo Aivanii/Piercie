@@ -1,5 +1,3 @@
-import { FadeIn } from "../../configs/animsSettings";
-
 const MainScreen = () => {
   return (
     <section>
@@ -16,7 +14,8 @@ const MainScreen = () => {
         <div>
           <div
             className="absolute top-1/2 left-1/12 -translate-y-1/2 
-      text-white w-3/7"
+      text-white w-3/7" data-aos="fade-up"
+
           >
             <div className="flex flex-col gap-8">
               <h1 className="font-bold text-7xl jost-styles">
@@ -26,7 +25,8 @@ const MainScreen = () => {
                 Experience cutting-edge piercing techniques at Piercie's, your
                 London destination for modern body art excellence and safety.
               </p>
-              <a href = "#contacts-section"
+              <a
+                href="#contacts-section"
                 className="p-4 bg-[#E5AF24] text-center hover:bg-[#D09F23] duration-150 cursor-pointer
           text-black w-fit"
               >
