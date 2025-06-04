@@ -27,9 +27,8 @@ const MainScreen = () => {
                 London destination for modern body art excellence and safety.
               </p>
               <a href = "#contacts-section"
-                className="jost-styles text-xl font-normal
-        bg-amber-400 text-black text-center p-4 
-        w-fit cursor-pointer hover:bg-[#e6a90a] duration-200"
+                className="p-4 bg-[#E5AF24] text-center hover:bg-[#D09F23] duration-150 cursor-pointer
+          text-black w-fit"
               >
                 Explore piercing options
               </a>
