@@ -9,11 +9,11 @@ const OurSkills = () => {
           className="flex justify-center items-center flex-col
         w-full p-12 pt-30"
         >
-          <h2 className="font-bold text-4xl jost-styles text-white w-full text-center">
+          <h2 className="font-bold text-4xl jost-styles text-white w-full text-center" data-aos="fade-up">
             Advanced Earings Crafting
           </h2>
           <div className="flex mt-6 gap-2 md:gap-4 lg:gap-8">
-            <div className="relative">
+            <div className="relative" data-aos="fade-up"  data-aos-delay="500">
               <img
                 className="h-144 w-100 object-cover relative"
                 src="https://media.gettyimages.com/id/1500832940/photo/pharmacist-uses-a-specialized-piercing-gun-to-create-a-new-earlobe-piercing.jpg?b=1&s=2048x2048&w=0&k=20&c=zQxj1pAFEc2SPNaD3Oq-WwJ8JUXT3Xj5SdFZGrcq4wE="
@@ -32,7 +32,7 @@ const OurSkills = () => {
                 </p>
               </div>
             </div>
-            <div className="relative" >
+            <div className="relative" data-aos="fade-up" data-aos-delay="600">
               <img
                 className="h-144 w-100 object-cover relative"
                 src="https://media.gettyimages.com/id/1161011234/photo/body-piercing-background-jewelry-rings-puncturing-implants-blurry-background.jpg?b=1&s=2048x2048&w=0&k=20&c=ayeqKfnI6GOKyfRGZVWpOttu7PQDCaSAo9VCOduF7Ek="
@@ -51,7 +51,7 @@ const OurSkills = () => {
                 </p>
               </div>
             </div>
-            <div className="relative">
+            <div className="relative" data-aos="fade-up" data-aos-delay="700">
               <img
                 className="h-144 w-100 object-cover relative"
                 src="https://media.gettyimages.com/id/1367116547/photo/cropped-photo-of-a-smiling-woman-patient-getting-ear-piercing-procedure-by-a-specialist-in.jpg?b=1&s=2048x2048&w=0&k=20&c=AUiyi4ihJ332LWMI2Ns-uGNUxtLy6hSe1_eO7dVT0Vc="
@@ -75,7 +75,7 @@ const OurSkills = () => {
 
         <div
           className="flex justify-center items-center w-full p-12 pt-20
-      gap-20"
+      gap-20"  data-aos="fade-up"
         >
           <img
             src="https://media.gettyimages.com/id/1278771818/photo/london-punk-scene-portrait-of-one-male-punker.jpg?b=1&s=2048x2048&w=0&k=20&c=o2snkeAhZXHsb_JMzLc-RA8FmaDpFGNkITaQYnvY0jA="
