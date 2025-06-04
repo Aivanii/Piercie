@@ -2,7 +2,7 @@ const Services = () => {
   return (
     <section>
       <div className="mt-40 max-w-[1920px] w-dvw m-auto jost-styles">
-        <h2
+        <h2 data-aos="fade-up"
           className="font-bold text-4xl jost-styles text-black w-full
     text-center"
         >
@@ -10,7 +10,7 @@ const Services = () => {
         </h2>
 
         <div className="flex flex-wrap items-center justify-center mt-4">
-          <div className="border-1 border-[#B2B2B2] max-w-96 p-4 flex flex-col gap-4 pb-12">
+          <div className="border-1 border-[#B2B2B2] max-w-96 p-4 flex flex-col gap-4 pb-12" data-aos="fade-up" data-aos-delay="600">
             <img
               src="https://media.gettyimages.com/id/2208668621/photo/beautician-applying-permanent-makeup-on-clients-chest-in-beauty-salon.jpg?b=1&s=2048x2048&w=0&k=20&c=blGRanKazaaA55qAVyZwNfW_wb9pCAYuh98Kqyhtifg="
               alt="Beautician applying permanent makeup on client's chest in beauty salon"
@@ -92,7 +92,8 @@ const Services = () => {
               </div>
             </ul>
           </div>
-          <div className="border-2 border-[#8C8E90] max-w-96 p-4 flex flex-col gap-4 pb-12">
+          <div className="border-2 border-[#8C8E90] max-w-96 p-4 flex flex-col gap-4 pb-12" 
+          data-aos="fade-up" data-aos-delay="500">
             <img
               src="./advanced-piercing-options.png"
               alt="Beautician applying permanent makeup on client's chest in beauty salon"
@@ -177,7 +178,8 @@ const Services = () => {
               </div>
             </ul>
           </div>
-          <div className="border-1 max-w-96 p-4 flex flex-col gap-4 border-[#B2B2B2] pb-12">
+          <div className="border-1 max-w-96 p-4 flex flex-col gap-4 border-[#B2B2B2] pb-12"
+          data-aos="fade-up" data-aos-delay="700">
             <img
               src="./premium-piercing-experience.png"
               alt="Beautician applying permanent makeup on client's chest in beauty salon"
