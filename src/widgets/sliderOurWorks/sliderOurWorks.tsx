@@ -57,7 +57,7 @@ const SliderOurWorks = () => {
             src={elem.src}
             key={`${elem.src}-${index}`}
             alt={elem.alt}
-            className="w-full h-full aspect-video p-16 object-cover"
+            className="w-full h-full aspect-video p-6 md:p-16 object-cover"
           />
         ))}
       </Carousel>
