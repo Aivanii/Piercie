@@ -13,15 +13,17 @@ const Contacts = () => {
     message: "",
   });
 
-  const nameInputRef = useRef(null);
-  const emailInputRef = useRef(null);
-  const messageInputRef = useRef(null);
+  const nameInputRef = useRef<HTMLInputElement>(null);
+  const emailInputRef = useRef<HTMLInputElement>(null);
+  const messageInputRef = useRef<HTMLTextAreaElement>(null);
 
-  const nameInputErrorTxtRef = useRef(null);
-  const emailInputErrorTxtRef = useRef(null);
-  const messageInputErrorTxtRef = useRef(null);
+  const nameInputErrorTxtRef = useRef<HTMLSpanElement>(null);
+  const emailInputErrorTxtRef = useRef<HTMLSpanElement>(null);
+  const messageInputErrorTxtRef = useRef<HTMLSpanElement>(null);
 
-  const changeFormData = (event) => {
+  const changeFormData: React.ChangeEventHandler<
+    HTMLInputElement | HTMLTextAreaElement
+  > = (event) => {
     const { name, value } = event.target;
     if (!name || !value) {
       return;
@@ -29,7 +31,9 @@ const Contacts = () => {
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleFormSubmit = (event) => {
+  const handleFormSubmit: React.ChangeEventHandler<HTMLFormElement> = (
+    event
+  ) => {
     event.preventDefault();
     clearIncorrectTexts();
 
@@ -85,8 +89,11 @@ const Contacts = () => {
   };
 
   const clearIncorrectTexts = () => {
+    if (!nameInputErrorTxtRef?.current) return;
     nameInputErrorTxtRef.current.textContent = "";
+    if (!emailInputErrorTxtRef?.current) return;
     emailInputErrorTxtRef.current.textContent = "";
+    if (!messageInputErrorTxtRef?.current) return;
     messageInputErrorTxtRef.current.textContent = "";
   };
 
