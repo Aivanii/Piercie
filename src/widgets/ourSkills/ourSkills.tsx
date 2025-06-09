@@ -7,7 +7,7 @@ const OurSkills = () => {
       >
         <div
           className="flex justify-center items-center flex-col
-        w-full p-12 pt-30"
+        w-full p-12 pt-12 md:pt-30"
         >
           <h2
             className="font-bold text-4xl jost-styles text-white w-full text-center"
@@ -15,7 +15,7 @@ const OurSkills = () => {
           >
             Advanced Earings Crafting
           </h2>
-          <div className="flex mt-6 gap-2 md:gap-4 lg:gap-8">
+          <div className="flex flex-col mt-6 gap-4 md:flex-row lg:gap-8">
             <div className="relative" data-aos="fade-up" data-aos-delay="500">
               <img
                 className="h-144 w-100 object-cover relative"
@@ -54,9 +54,9 @@ const OurSkills = () => {
                 </p>
               </div>
             </div>
-            <div className="relative" data-aos="fade-up" data-aos-delay="700">
+            <div className="relative m-auto" data-aos="fade-up" data-aos-delay="700">
               <img
-                className="h-144 w-100 object-cover relative"
+                className="h-144 w-100 object-cover relative m-auto"
                 src="https://media.gettyimages.com/id/1367116547/photo/cropped-photo-of-a-smiling-woman-patient-getting-ear-piercing-procedure-by-a-specialist-in.jpg?b=1&s=2048x2048&w=0&k=20&c=AUiyi4ihJ332LWMI2Ns-uGNUxtLy6hSe1_eO7dVT0Vc="
                 alt="Cropped photo of a smiling woman patient getting ear piercing procedure by a specialist in medical gloves in the cosmetologist cabinet."
               />
@@ -77,16 +77,16 @@ const OurSkills = () => {
         </div>
 
         <div
-          className="flex justify-center items-center w-full p-12 pt-20
+          className="flex flex-col md:flex-row justify-center items-center w-full p-12 md:pt-20
       gap-20"
           data-aos="fade-up"
         >
           <img
             src="https://media.gettyimages.com/id/1278771818/photo/london-punk-scene-portrait-of-one-male-punker.jpg?b=1&s=2048x2048&w=0&k=20&c=o2snkeAhZXHsb_JMzLc-RA8FmaDpFGNkITaQYnvY0jA="
             alt="London Punk scene, portrait of one male punker."
-            className="w-1/2 max-w-xl aspect-square object-cover"
+            className="w-80 md:w-1/2 max-w-xl aspect-square object-cover m-auto"
           />
-          <div className="w-1/2 flex flex-col justify-between h-full gap-4">
+          <div className="md:w-1/2 -mt-12 md:mt-0 flex flex-col justify-between h-full gap-4">
             <h2 className="font-bold text-4xl jost-styles text-white w-full">
               Elevating Piercing Artistry in London
             </h2>
