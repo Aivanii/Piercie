@@ -88,7 +88,7 @@ const Contacts = () => {
     nameInputErrorTxtRef.current.textContent = "";
     emailInputErrorTxtRef.current.textContent = "";
     messageInputErrorTxtRef.current.textContent = "";
-  }
+  };
 
   const submitValidatedForm = () => {
     alert("Form was successfully submited. Thank you!");
@@ -97,10 +97,10 @@ const Contacts = () => {
 
   return (
     <section id="contacts-section">
-      <div className="bg-[#22211F] py-10 mt-40 w-dvw max-w-[1920px] m-auto text-white">
-        <div className="flex flex-wrap justify-around items-start">
+      <div className="bg-[#22211F] py-10 mt-20 md:mt-40 w-dvw max-w-[1920px] m-auto text-white">
+        <div className="flex flex-col flex-wrap justify-around items-start md:flex-row">
           <div
-            className="w-1/3 jost-styles text-white
+            className="md:w-1/3 jost-styles text-white
         flex flex-col gap-4 h-full p-4"
           >
             <h3 className="font-semibold text-3xl">
@@ -112,7 +112,8 @@ const Contacts = () => {
             </p>
           </div>
           <form
-            className="w-1/3 grid grid-cols-2 gap-4"
+            className="md:w-1/3 grid grid-cols-2 gap-4
+        px-4 md:px-0"
             onSubmit={handleFormSubmit}
           >
             <div>
