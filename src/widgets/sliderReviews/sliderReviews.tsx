@@ -39,15 +39,15 @@ const SliderReviews = () => {
         infinite={true}
         showDots={true}
         customTransition={"all .69s ease-in-out"}
-        className="w-dvw max-w-[1920px] m-auto mt-40 pb-20"
+        className="w-dvw max-w-[1920px] m-auto mt-12 md:mt-40 pb-20"
       >
         {slides.map((elem) => (
           <div
             key={elem.author}
             className="max-w-[1280px] m-auto 
-        flex flex-col gap-6"
+        flex flex-col gap-6 px-20"
           >
-            <h3 className="jost-styles font-semibold text-3xl">{elem.text}</h3>
+            <h3 className="jost-styles font-semibold text-2xl md:text-3xl">{elem.text}</h3>
             <span className="jost-styles">- {elem.author}</span>
           </div>
         ))}
