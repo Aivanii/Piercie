@@ -3,7 +3,7 @@ const Footer = () => {
     <footer>
       <div className="flex flex-wrap items-center justify-around bg-[#20201E] text-white jost-styles p-4">
         <div className="mt-4">
-          <h6 className="text-2xl font-medium">Contact Information</h6>
+          <div className="text-2xl font-medium">Contact Information</div>
           <div className="flex mt-2 gap-8 items-start">
             <span>Mr. John Smith, 123 Main Street, London, E1 4AA, UK</span>
             <div className="flex flex-col">
@@ -14,7 +14,7 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <h6 className="text-2xl font-medium">Our social networks</h6>
+          <div className="text-2xl font-medium">Our social networks</div>
           <div className="grid grid-cols-2 mt-2 gap-2 ">
             <div className="flex gap-2 cursor-pointer">
               <svg

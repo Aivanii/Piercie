@@ -40,6 +40,8 @@ const SliderReviews = () => {
         showDots={true}
         customTransition={"all .69s ease-in-out"}
         className="w-dvw max-w-[1920px] m-auto mt-12 md:mt-40 pb-20"
+        renderButtonGroupOutside={true}
+        dotListClass="custom-dot-list"
       >
         {slides.map((elem) => (
           <div
@@ -47,7 +49,9 @@ const SliderReviews = () => {
             className="max-w-[1280px] m-auto 
         flex flex-col gap-6 px-20"
           >
-            <h3 className="jost-styles font-semibold text-2xl md:text-3xl">{elem.text}</h3>
+            <h3 className="jost-styles font-semibold text-2xl md:text-3xl">
+              {elem.text}
+            </h3>
             <span className="jost-styles">- {elem.author}</span>
           </div>
         ))}

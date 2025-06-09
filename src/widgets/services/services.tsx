@@ -233,44 +233,48 @@ const Services = () => {
                   <span className="jost-styles">Gold jewellery</span>
                 </div>
               </li>
-              <div className="flex gap-4">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  width="24"
-                  height="24"
-                  className="w-6 h-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="1.5"
-                    d="m5 13 4 4L19 7"
-                  ></path>
-                </svg>
-                <span className="jost-styles">Aftercare kit</span>
-              </div>
-              <div className="flex gap-4">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  width="24"
-                  height="24"
-                  className="w-6 h-6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="1.5"
-                    d="m5 13 4 4L19 7"
-                  ></path>
-                </svg>
-                <span className="jost-styles">Custom design</span>
-              </div>
+              <li>
+                <div className="flex gap-4">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    height="24"
+                    className="w-6 h-6"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
+                      d="m5 13 4 4L19 7"
+                    ></path>
+                  </svg>
+                  <span className="jost-styles">Aftercare kit</span>
+                </div>
+              </li>
+              <li>
+                <div className="flex gap-4">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    height="24"
+                    className="w-6 h-6"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
+                      d="m5 13 4 4L19 7"
+                    ></path>
+                  </svg>
+                  <span className="jost-styles">Custom design</span>
+                </div>
+              </li>
             </ul>
           </div>
         </div>

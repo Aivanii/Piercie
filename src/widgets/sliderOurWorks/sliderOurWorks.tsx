@@ -51,6 +51,9 @@ const SliderOurWorks = () => {
         infinite={true}
         showDots={true}
         customTransition={"all .69s ease-in-out"}
+        renderButtonGroupOutside={true}
+        arrows={false}
+        dotListClass="custom-dot-list"
       >
         {slides.map((elem, index) => (
           <img

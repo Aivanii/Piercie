@@ -124,7 +124,7 @@ const Contacts = () => {
             onSubmit={handleFormSubmit}
           >
             <div>
-              <label>Name</label>
+              <label htmlFor="name">Name</label>
               <input
                 type="text"
                 name="name"
@@ -136,7 +136,7 @@ const Contacts = () => {
               <span ref={nameInputErrorTxtRef} className="text-red-600"></span>
             </div>
             <div>
-              <label>Email</label>
+              <label htmlFor="email">Email</label>
               <input
                 type="text"
                 autoComplete="email"
@@ -148,7 +148,7 @@ const Contacts = () => {
               <span ref={emailInputErrorTxtRef} className="text-red-600"></span>
             </div>
             <div className="col-span-2">
-              <label>Message</label>
+              <label htmlFor="message">Message</label>
               <textarea
                 className="w-full min-h-48 bg-[#2E2E2B] p-2"
                 name="message"

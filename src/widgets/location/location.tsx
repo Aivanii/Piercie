@@ -7,6 +7,7 @@ const Location = () => {
           width="100%"
           height="600"
           loading="lazy"
+          title = "We on Google Maps"
         ></iframe>
       </div>
     </section>

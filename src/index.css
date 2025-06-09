@@ -1,31 +1,38 @@
 @import "tailwindcss";
 
-*{
+* {
   box-sizing: border-box;
 }
 
-html{
+html {
   width: 100%;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
-.header-logo, .jost-styles{
+.header-logo,
+.jost-styles {
   font-family: "Jost", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
 
 /*TODO: fix when screen size (width) changes, the anim is broken */
-@keyframes companies-scroll-anim{
-  from{
+@keyframes companies-scroll-anim {
+  from {
     transform: translateX(-140.5%);
   }
-  to{
+  to {
     transform: translateX(0%);
   }
 }
 
 .companies-scroll {
   animation: companies-scroll-anim 20s linear infinite;
+}
+
+.custom-dot-list li button {
+  width: 16px !important;
+  height: 16px !important;
+  margin: 0 8px !important;
 }
