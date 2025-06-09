@@ -1,10 +1,11 @@
 const MainScreen = () => {
   return (
-    <section>
-      <div className="max-w-[1920px] m-auto min-h-96 relative">
-        <div className="max-w-[1920px] m-auto min-h-96 relative">
+    <section className="max-w-[1920px] w-dvw">
+      <div className="max-w-[1920px] w-dvw m-auto min-h-96 relative">
+        <div className="max-w-[1920px] w-dvw m-auto min-h-96 relative">
           <img
-            className="object-cover relative h-220 w-full
+            className="object-cover relative h-180 
+            m-auto w-dvw max-w-[1920px]
           "
             src="./young-woman-doing-piercing-at-beauty-studio-salon.jpeg"
             alt="background"
@@ -14,11 +15,11 @@ const MainScreen = () => {
         <div>
           <div
             className="absolute top-1/2 left-1/12 -translate-y-1/2 
-      text-white w-3/7" data-aos="fade-up"
-
+      text-white md:w-3/7"
+            data-aos="fade-up"
           >
             <div className="flex flex-col gap-8">
-              <h1 className="font-bold text-7xl jost-styles">
+              <h1 className="font-bold text-5xl jost-styles md:text-7xl">
                 Advanced Piercing Techniques Available
               </h1>
               <p className="font-normal text-xl jost-styles">
