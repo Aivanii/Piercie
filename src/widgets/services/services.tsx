@@ -10,16 +10,16 @@ const Services = () => {
           Cutting-Edge Piercing Services
         </h2>
 
-        <div className="flex flex-wrap items-center justify-center mt-4 m-auto">
+        <div className="flex flex-wrap flex-col xl:flex-row items-center justify-center mt-4 ">
           <div
-            className="border-1 border-[#B2B2B2] max-w-96 p-4 flex flex-col gap-4 pb-12 m-auto"
+            className="border-1 border-[#B2B2B2] max-w-xl xl:max-w-96 p-4 flex flex-col gap-4 pb-12"
             data-aos="fade-up"
             data-aos-delay="600"
           >
             <img
               src="https://media.gettyimages.com/id/2208668621/photo/beautician-applying-permanent-makeup-on-clients-chest-in-beauty-salon.jpg?b=1&s=2048x2048&w=0&k=20&c=blGRanKazaaA55qAVyZwNfW_wb9pCAYuh98Kqyhtifg="
               alt="Beautician applying permanent makeup on client's chest in beauty salon"
-              className="m-auto"
+              className=""
             />
             <h4 className="jost-styles font-semibold text-xl">
               Basic Piercing Service
@@ -99,7 +99,7 @@ const Services = () => {
             </ul>
           </div>
           <div
-            className="border-2 border-[#8C8E90] max-w-96 p-4 flex flex-col gap-4 pb-12"
+            className="border-2 border-[#8C8E90] max-w-xl xl:max-w-96 p-4 flex flex-col gap-4 pb-12 mt-4"
             data-aos="fade-up"
             data-aos-delay="500"
           >
@@ -188,7 +188,7 @@ const Services = () => {
             </ul>
           </div>
           <div
-            className="border-1 max-w-96 p-4 flex flex-col gap-4 border-[#B2B2B2] pb-12"
+            className="border-1 max-w-xl xl:max-w-96 p-4 flex flex-col gap-4 pb-12 mt-4"
             data-aos="fade-up"
             data-aos-delay="700"
           >
