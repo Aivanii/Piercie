@@ -18,7 +18,6 @@ function App() {
       once: true,
       duration: 650,
       offset: 150,
-      easing: "fade-up",
       delay: 400,
     });
   }, []);
